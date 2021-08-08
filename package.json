@@ -1,0 +1,22 @@
+{
+  "name": "faq-accordion",
+  "version": "1.0.0",
+  "description": "an faq accordion",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikkiHmltn/faq-accordion-card.git"
+  },
+  "author": "NikkiHmltn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikkiHmltn/faq-accordion-card/issues"
+  },
+  "homepage": "https://github.com/NikkiHmltn/faq-accordion-card#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
