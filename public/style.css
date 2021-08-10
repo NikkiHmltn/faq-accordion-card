@@ -15,10 +15,46 @@ body {
     border-radius: 25px;
     transform: translate(-50%, -50%);
     padding: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.accordion-button:after {
+    background-image: url("../images/icon-arrow-down.svg");
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+
+#online-woman {
+    position: relative;
+    right: 18%;
+}
+
+.faq-container {
+    padding-left: 5%;
+    width: 50vh;
 }
 
 .attribution { 
     font-size: 11px; text-align: center; 
+    position: absolute;
+    bottom: 10%;
+    left: 43%;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
